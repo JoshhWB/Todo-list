@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+button {
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+body {
+    background-color: #B1B2FF;
+    color: #EEF1FF;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+}
+
+.app {
+    width: 100%;
+    max-width: 768px;
+}
+
+.app header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
